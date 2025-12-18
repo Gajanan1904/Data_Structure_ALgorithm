@@ -75,6 +75,7 @@ int main(){
     ll.printList();
     ll.push_back(4);
     ll.push_back(5);
+    ll.push_back(6);
     ll.printList();
 
     ll.pop_front();                 
