@@ -55,6 +55,7 @@ int main(){
     s.push('a');
     s.push('b');
     s.push('c');
+    s.push('d');
     
     while(!s.Isempty()){
         cout<<s.top()<<" ";
