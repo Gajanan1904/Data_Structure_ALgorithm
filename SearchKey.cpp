@@ -106,7 +106,7 @@ int main(){
     ll.push_back(5);
     ll.printList();
 
-    ll.InsertAtPos(0,3);
+    ll.InsertAtPos(0,4);
     ll.printList();             
     ll.SearchKey(0);
 
