@@ -19,7 +19,6 @@ void InterleaveQueue(queue<int>&originalQ){
 }
 int main(){
     queue<int>originalQ;
-    int a;
     for(int i=1;i<=10;i++){
         originalQ.push(i);
     }
