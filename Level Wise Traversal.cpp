@@ -53,7 +53,6 @@ void LevelWiseTraversal(Node *root){
 }
 int main(){
     int n;
-    int a;
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
