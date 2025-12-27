@@ -29,6 +29,7 @@ int main(){
     s.push('d');
     s.push('c');
     s.push('b');
+    s.push('a');
     Reverse(s);
     
     while(!s.empty()){
