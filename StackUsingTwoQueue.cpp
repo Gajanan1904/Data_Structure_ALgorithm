@@ -35,6 +35,7 @@ class stack{
 int main(){
     stack s;
     s.push(1);
+    s.push(2);
     
     while(!s.empty()){
         cout<<s.top()<<endl;
