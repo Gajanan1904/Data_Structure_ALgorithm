@@ -33,7 +33,7 @@ class stack{
     }
 };
 int main(){
-    
+    stack s;
     
     while(!s.empty()){
         cout<<s.top()<<endl;
