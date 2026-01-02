@@ -74,6 +74,7 @@ int main(){
     ll.push_front(1);
     ll.push_back(4);
     ll.push_back(5);
+    ll.push_back(6);
     
 
     ll.head=ll.ZigZag(ll.head);  //hide to detetct cycle
