@@ -33,7 +33,7 @@ void PostOrder(Node *root){
     
 }
 int main(){
-  
+    int n;
     Node *root=BuildTree(arr,n);
     cout<<"PostOrder Traversal: ";
     PostOrder(root);
