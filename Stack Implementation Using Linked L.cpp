@@ -53,6 +53,8 @@ class Stack{
 int main(){
     Stack<char>s;
     s.push('a');
+    s.push('b');
+    
 
     
     while(!s.Isempty()){
