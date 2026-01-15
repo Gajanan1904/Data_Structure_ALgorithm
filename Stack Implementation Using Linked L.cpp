@@ -54,6 +54,7 @@ int main(){
     Stack<char>s;
     s.push('a');
     s.push('b');
+    s.push('c');
 
     
     while(!s.Isempty()){
