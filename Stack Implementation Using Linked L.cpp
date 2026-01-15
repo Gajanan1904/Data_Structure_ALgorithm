@@ -52,7 +52,7 @@ class Stack{
 };
 int main(){
     Stack<char>s;
-    
+    s.push('a');
 
     
     while(!s.Isempty()){
