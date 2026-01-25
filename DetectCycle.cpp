@@ -85,7 +85,7 @@ class List{
     }
 };
 int main(){
-    
+    List ll;
     
     
     ll.tail->next=ll.head;
