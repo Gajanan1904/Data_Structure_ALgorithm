@@ -88,6 +88,7 @@ int main(){
     List ll;
     ll.push_front(3);
     ll.push_front(2);
+    ll.push_front(1);
     
     
     ll.tail->next=ll.head;
