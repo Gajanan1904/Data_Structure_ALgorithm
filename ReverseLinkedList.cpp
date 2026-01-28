@@ -81,7 +81,7 @@ class List{
     }
 };
 int main(){
-    
+    List ll;
 
     
     ll.Reverse();
