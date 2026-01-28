@@ -82,6 +82,7 @@ class List{
 };
 int main(){
     List ll;
+    ll.push_front(3);
 
     
     ll.Reverse();
