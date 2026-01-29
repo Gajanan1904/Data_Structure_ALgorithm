@@ -56,7 +56,7 @@ void LevelWiseTraversal(Node *root){
     cout<<"total height of tree is: "<<count;
 }
 int main(){
-    
+    int n;
     
     Node *root=BuildTree(arr,n);
     LevelWiseTraversal(root);
