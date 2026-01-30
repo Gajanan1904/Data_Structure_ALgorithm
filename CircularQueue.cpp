@@ -46,7 +46,7 @@ class Queue{
     }
 };
 int main(){
-    
+    Queue q(4);
     
     cout<<q.front()<<endl;
     q.pop();
