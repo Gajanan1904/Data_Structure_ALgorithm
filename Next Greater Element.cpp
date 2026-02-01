@@ -27,14 +27,5 @@ void NextGreaterElement(int arr[],int ans[],int n){
     cout<<endl;
 }
 int main(){
-    int n;
-    cin>>n;
-    int arr[n],ans[n];
     
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-        ans[i]=0;
-    }
-    NextGreaterElement(arr,ans,n);
-    return 0;
 }
