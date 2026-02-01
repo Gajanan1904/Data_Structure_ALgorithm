@@ -34,4 +34,5 @@ int main(){
         cin>>arr[i];
     }
     NextGreaterElement(arr,ans,n);
+    return 0;
 }
