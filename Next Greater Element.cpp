@@ -27,5 +27,5 @@ void NextGreaterElement(int arr[],int ans[],int n){
     cout<<endl;
 }
 int main(){
-    
+    int n;
 }
