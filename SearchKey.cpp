@@ -103,6 +103,7 @@ int main(){
     ll.push_front(1);
     ll.push_front(0);
     ll.push_back(4);
+    ll.push_back(5);
 
     ll.InsertAtPos(0,4);
     ll.printList();             
