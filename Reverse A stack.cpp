@@ -27,6 +27,7 @@ int main(){
     stack<char>s;
     s.push('e');
     s.push('d');
+    s.push('c');
     Reverse(s);
     
     while(!s.empty()){
