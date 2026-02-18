@@ -26,6 +26,7 @@ void Reverse(stack<T>&s){
 int main(){
     stack<char>s;
     s.push('e');
+    s.push('d');
     Reverse(s);
     
     while(!s.empty()){
