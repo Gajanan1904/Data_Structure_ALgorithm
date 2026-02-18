@@ -28,6 +28,7 @@ int main(){
     s.push('e');
     s.push('d');
     s.push('c');
+    s.push('b');
     Reverse(s);
     
     while(!s.empty()){
