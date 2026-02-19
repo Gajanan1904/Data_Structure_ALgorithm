@@ -36,7 +36,7 @@ int height(Node *root){
     
 }
 int main(){
-    
+    int n;
     
     Node *root=BuildTree(arr,n);
     int heightTree=height(root);
