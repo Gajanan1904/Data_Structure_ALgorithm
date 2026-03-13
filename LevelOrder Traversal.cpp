@@ -45,7 +45,7 @@ void LevelOrder(Node *root){
     cout<<endl;
 }
 int main(){
-    
+    int n;
     
     Node *root=BuildTree(arr,n);
     cout<<"Level Order Traversal: ";
