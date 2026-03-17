@@ -53,6 +53,7 @@ void LevelWiseTraversal(Node *root){
 }
 int main(){
     int n;
+    cin>>n;
     
     Node *root=BuildTree(arr,n);
     cout<<"Level Wise Traversal: ";
