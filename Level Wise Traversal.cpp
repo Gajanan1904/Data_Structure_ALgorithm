@@ -54,6 +54,7 @@ void LevelWiseTraversal(Node *root){
 int main(){
     int n;
     cin>>n;
+    int arr[n];
 
     
     Node *root=BuildTree(arr,n);
