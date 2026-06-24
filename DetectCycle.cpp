@@ -90,6 +90,7 @@ int main(){
     ll.push_front(2);
     ll.push_front(3);
     ll.printList();
+    LL.push_back(4);
     
     
     ll.tail->next=ll.head;
