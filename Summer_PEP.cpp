@@ -27,3 +27,35 @@ int main() {
 
     return 0;
 }
+
+//No Two consecutive 0's in a binary string of length n
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<string> ans;
+
+void generate(int idx, string str, int n) {
+    if (str.size() == n) {
+        ans.push_back(str);
+        return;
+    }
+
+    if (str.empty() || str.back() == '1') {
+        generate(idx + 1, str + '0', n);
+        generate(idx + 1, str + '1', n);
+    } else {
+        generate(idx + 1, str + '1', n);
+    }
+}
+
+int main() {
+    int n;
+    cin >> n;
+
+    generate(0, "", n);
+
+    for (string s : ans) {
+        cout << s << endl;
+    }
+}
