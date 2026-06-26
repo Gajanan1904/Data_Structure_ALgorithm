@@ -28,6 +28,7 @@ void NextGreaterElement(int arr[],int ans[],int n){
 }
 int main(){
     int n;
+    cin>>n;
     NextGreaterElement(arr,ans,n);
     return 0;
 }
