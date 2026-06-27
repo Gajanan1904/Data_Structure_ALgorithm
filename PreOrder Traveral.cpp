@@ -31,7 +31,7 @@ void PreOrder(Node *root){
     PreOrder(root->right);
 }
 int main(){
-    
+    int n;
     Node *root=BuildTree(arr,n);
     cout<<"PreOrder Traversal: ";
     PreOrder(root);
