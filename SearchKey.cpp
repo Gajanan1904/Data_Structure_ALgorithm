@@ -99,7 +99,7 @@ class List{
 int main(){
     List ll;
     ll.push_front(3);      
-        
+       
 
     
     ll.InsertAtPos(0,4);
