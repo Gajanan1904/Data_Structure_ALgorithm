@@ -33,6 +33,7 @@ class Queue{
     }
 };
 int main(){
+    Queue q;
     
     
     while(!q.empty()){
