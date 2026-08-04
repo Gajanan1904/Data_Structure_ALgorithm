@@ -36,6 +36,7 @@ int main(){
     Queue q;
     q.push(1);
     q.push(2);
+    q.push(3);
     
     
     while(!q.empty()){
