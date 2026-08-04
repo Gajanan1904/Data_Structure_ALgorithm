@@ -35,6 +35,7 @@ class Queue{
 int main(){
     Queue q;
     q.push(1);
+    q.push(2);
     
     
     while(!q.empty()){
