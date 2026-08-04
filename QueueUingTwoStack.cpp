@@ -34,6 +34,7 @@ class Queue{
 };
 int main(){
     Queue q;
+    q.push(1);
     
     
     while(!q.empty()){
