@@ -24,13 +24,7 @@ void Reverse(stack<T>&s){
     pushAtBottom(s,temp);
 }
 int main(){
-    stack<char>s;
-    s.push('e');
-    s.push('d');
-    s.push('c');
-    s.push('b');
-    s.push('a');
-    Reverse(s);
+    
     
     while(!s.empty()){
         cout<<s.top();
