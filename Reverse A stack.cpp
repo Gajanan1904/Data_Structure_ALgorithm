@@ -24,6 +24,7 @@ void Reverse(stack<T>&s){
     pushAtBottom(s,temp);
 }
 int main(){
+    stack<char>s;
     
     
     while(!s.empty()){
