@@ -29,7 +29,7 @@ int main(){
     s.push('d');
     s.push('c');
     s.push('b');
-    
+    s.push('a');
     
     while(!s.empty()){
         cout<<s.top();
