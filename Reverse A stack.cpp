@@ -30,7 +30,7 @@ int main(){
     s.push('c');
     s.push('b');
     s.push('a');
-    
+    Reverse(s);
     while(!s.empty()){
         cout<<s.top();
         s.pop();
