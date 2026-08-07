@@ -28,6 +28,7 @@ int main(){
     s.push('e');
     s.push('d');
     s.push('c');
+    s.push('b');
     
     while(!s.empty()){
         cout<<s.top();
