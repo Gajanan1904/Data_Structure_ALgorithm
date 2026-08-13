@@ -6,7 +6,7 @@ int linearsearch(int *arr,int n,int key){
             return i;
         }
     }
-    
+    return -1;
     
 }
 int main(){
