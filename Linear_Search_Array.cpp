@@ -5,6 +5,7 @@ int linearsearch(int *arr,int n,int key){
         if(arr[i]==key){
             return i;
         }
+    }
     
     
 }
