@@ -36,8 +36,8 @@ int main(){
     int n;
     cin>>n;
     int arr[n];
-    
-    Node *root=BuildTree(arr,n);
+    for(int i=0;i<n;i++){
+        de *root=BuildTree(arr,n);
     cout<<"InOrder Traversal: ";
     InOrder(root);
 }
