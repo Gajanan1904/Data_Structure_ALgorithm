@@ -206,7 +206,12 @@
 //     f1.breath();
 //     f1.swim();
 
-
+//     Mammal m1;
+//     m1.color = "Brown";
+//     cout << "\nMammal color: " << m1.color << endl;
+//     m1.eat();
+//     m1.breath();
+//     m1.walk();
 
 //     return 0;
 // }
