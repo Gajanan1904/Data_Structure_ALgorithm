@@ -203,7 +203,7 @@
 //     f1.color = "Blue";
 //     cout << "\nFish color: " << f1.color << endl;
 //     f1.eat();
-//     f1.breath();
+
 //     f1.swim();
 
  
